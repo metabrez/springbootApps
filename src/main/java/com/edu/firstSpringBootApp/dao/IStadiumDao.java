@@ -1,0 +1,15 @@
+package com.edu.firstSpringBootApp.dao;
+
+import com.edu.firstSpringBootApp.team.Stadium;
+
+public interface IStadiumDao {
+
+	public abstract void add(Stadium stadium);
+
+	public abstract Stadium get(int stadiumKey);
+
+	public abstract void update(int stadiumKey, Stadium stadium);
+
+	public abstract void delete(int stadiumKey);
+
+}
